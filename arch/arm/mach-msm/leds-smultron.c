@@ -30,8 +30,8 @@ struct as3676_platform_data as3676_platform_data = {
 	.leds[0] = {
 		.name = "lcd-backlight",
 		.on_charge_pump = 0,
-		.max_current_uA = 20000,
-		.startup_current_uA = 20000,
+		.max_current_uA = 21000,
+		.startup_current_uA = 21000,
 		.use_dls = true,
 	},
 	.leds[1] = {
